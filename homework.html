@@ -1,0 +1,107 @@
+/* EX1: Add an h1 tag with the name of your shop
+
+EX2: Add a TABLE with the top 5 products of your shop
+
+EX3: Insert for each product an image, a title, a description and a price
+
+EX4: Add links to existing Amazon products for each item in the table
+
+EX5: Add a footer with the address and the name of your shop
+
+EX6: Add a message board where the user can type a message in it (no real posting/saving features required!)*/
+<html>
+    <link rel="stylesheet" href="index.css">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>complex</title>
+        <style>
+            .selected {
+    color: orange;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: orange;
+    border-style: solid;
+    padding: 4px;
+}
+        </style>
+    </head>
+    <body>
+        <h1 style="color: blue;">EXTREME </h1>
+
+        <h2>products</h2>
+
+
+            <table style="width: 100%;">
+                <tr>
+                <th>ipone 13 </th>
+                <td>
+                    <img width="20%" src="iphone13.jfif" alt="iphone">
+                    <a href="https://www.amazon.it/s?k=iphone+13+pro+max&crid=1PL13OKW26N5U&sprefix=iph%2Caps%2C134&ref=nb_sb_ss_ts-doa-p_1_3" target="blank">
+                    
+                    <p><h4>price:(1000$)</h4></p>
+                </td>
+                </tr>
+                <tr>
+                    <th>Samsung S21</th>
+                    
+            <td><img width="20%" src="samsungs21.jfif" alt="samsungs21">
+                <a href="https://www.amazon.it/s?k=samsung+s21&crid=2M5UWM80FRXT6&sprefix=samsun%2Caps%2C178&ref=nb_sb_ss_ts-doa-p_3_6" target="blank">
+                <p><h4>price:(1200$)</h4></p>
+            </td>
+                </tr>
+                <tr>
+                    <th>Tablets</th>
+                    <td><img width="20%" src="tablet.jfif" alt="Tablets">
+                        <a href="https://www.amazon.it/s?k=tablets&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2P0SGBCXGUYJ4&sprefix=tablets%2Caps%2C186&ref=nb_sb_noss" target="blank">
+                        <p><h4>price:(1200$)</h4></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Glass</th>
+                    <td><img width="20%" src="glass.jfif" alt="glass">
+                        <a href="https://www.amazon.it/s?k=phone+glass&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=7BHKPNYJQ1TY&sprefix=phone+glass%2Caps%2C188&ref=nb_sb_noss" target="blank">
+                        <p><h4>price:(50$-150$)</h4></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Charger</th>
+                    <td><img width="20%" src="charger.jfif" alt="charger">
+                        <a href="https://www.amazon.it/s?k=charger&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=36C8ZL2EVUS85&sprefix=charger%2Caps%2C197&ref=nb_sb_noss" target="blank">
+                        <p><h4>price:(20$-100$)</h4></p>
+                    </td>
+                </tr>
+
+                
+                
+                
+         
+
+
+            </table>
+            <footer>
+                <p>Tell us your ideas</p>
+                <input type="text" placeholder="write your opinion">
+            </footer>
+
+            <script>
+              const color = function(){
+              let h1Node = document.getElementsByTagName('h1')
+              
+             h1Node.classList.toggle("selected")
+              } 
+              color()
+
+            </script>
+        
+    </body>
+    </html>
+
+
+
+
+
+
